@@ -30,7 +30,6 @@ body{
     top: 0;
     width: 50%;
     height: 100%;
-    /* background: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,14 +40,6 @@ body{
     padding: 0 60px 0 40px;
 }
 
-.wrapper .form-box.login .animation {
-    transform: translateX(0);
-    transition: .7s ease;
-}
-
-.wrapper.active .form-box.login .animation {
-    transform: translateX(-120%);
-}
 
 .wrapper .form-box.register {
     right: 0;
@@ -174,7 +165,6 @@ body{
     top: 0;
     width: 50%;
     height: 100%;
-    /* background: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,13 +174,6 @@ body{
     right: 0;
     text-align: right;
     padding: 0 40px 60px 150px;
-}
-
-.wrapper .info-text.register {
-    left: 0;
-    text-align: left;
-    padding: 0 150px 60px 40px;
-    display: none;
 }
 
 .info-text h2{
@@ -211,22 +194,7 @@ body{
     right: 0;
     width: 850px;
     height: 600px;
-    background: linear-gradient(45deg, #081b29, #0ef);
-    border-bottom: 3px solid #0ef;
+    background: linear-gradient(45deg, #081b29, rgb(0, 143, 153));
     transform: rotate(10deg) skewY(40deg);
-    /* transform: rotate(0) skewY(0); */
     transform-origin: bottom right;
-}
-
-.wrapper .bg-animate2 {
-    position: absolute;
-    top: 100%;
-    left: 250px;
-    width: 850px;
-    height: 700px;
-    background: #081b29;
-    border-top: 3px solid #0ef;
-    /* transform: rotate(-11deg) skewY(-41deg); */
-    transform: rotate(0) skewY(0);
-    transform-origin: bottom left;
 }
