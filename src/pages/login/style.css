@@ -91,7 +91,7 @@ body{
 }
 
 .input-box input:focus~label,
-.input-box input:valid~label {
+.input-box input.has-content~label {
     top: -5px;
     color: #0ef;
 }
